@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "phomod",
+  "version": "${version}",
+
+  "name": "Phở Mod",
+  "description": "Thêm phở vào trong Minecraft!",
+  "authors": [
+    "Susiest!"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC BY-NC-SA 3.0",
+  "icon": "assets/phomod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "susiest.pho.mod.PhoMod"
+    ]
+  },
+  "mixins": [
+    "phomod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

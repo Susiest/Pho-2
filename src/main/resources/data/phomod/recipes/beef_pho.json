@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "phomod:broth"
+        },
+        {
+            "item": "phomod:flour"
+        },
+        {
+            "item": "minecraft:cooked_beef"
+        }
+    ],
+    "result": {
+        "item": "phomod:beef_pho",
+        "count": 1
+    }
+}
